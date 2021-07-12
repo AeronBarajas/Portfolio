@@ -16,14 +16,14 @@ Use this section to describe your final project and perhaps any links to relevan
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site.
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/)%7C landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| [lianapenn.com](https://www.lianapenn.com/) | interactive header animation
+|[zanegriffin.github.io](https://zanegriffin.github.io/portfolioSite/#portfolio-page) | the side bar and the aesthetic of the page |
+| [samcasey.info](https://samcasey.info/) |  layout of the page
 ---
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://res.cloudinary.com/dbeoydlvv/image/upload/v1626101048/IMG_0016_bawvie.png)
+- [Desktop](https://res.cloudinary.com/dbeoydlvv/image/upload/v1626101091/IMG_0014_xsjata.png)
 Wireframing Resources:
 - [Mockflow](https://mockflow.com/app/#Wireframe)
 - [Figma](https://www.figma.com/)
@@ -48,25 +48,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
+| Hamburger | H | 2hr | hr |
+| Expanding buttons | H | 3hr | hr |
+| Portfolio Formatting | H | 3hr | hr |  
 | Adding Form | H | 1.5hr|  hr | 
 | Other sections and flex| M | 3hr | hr|
 | Working with API | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Social Media Icons | L | 1.5hr |  hr |
+| Total | H | 20| hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
+| Intro animation | L | 3hr | -hr | hr |
+| Buttons enlarge animation | L | 2hr | hr |
+| Interactive Banner? | M | 4hr | hr |
 | Materialize | H | 4hr | -hr | hr |
 | Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Total | H | 17hrs| hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 ## Code Snippet
