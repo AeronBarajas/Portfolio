@@ -5,18 +5,21 @@
     padding: 0px 10px;
 }
 
-.nav-container ul {
-    display: none;
-    text-decoration: none;
+.nav-container nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navlink {
+    list-style: none;
+    padding-right: 25px;
     
 }
 
-
-/* nav i.fas.fa-bars {
-    display: block;
-    padding: 1em;
-    font-size: 2em;
-} */
+.menu {
+    font-size: 1.45em;
+}
 
 h3 {
     color: black;
@@ -46,6 +49,8 @@ main {
     font-weight: 600;
 }
 
+
+
 .panel {
     font-size: 1.25em;
     padding: 18px;
@@ -67,3 +72,21 @@ p > img {
     width: 50%;  
 }
 
+@media (max-width: 425px) {
+
+
+}
+
+@media (min-width: 500px) {
+    .menu {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .accordion:hover {
+        font-size: larger;
+    }
+} 
