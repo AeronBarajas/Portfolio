@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aeron Barajas</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/app.js" type="text/javascript"></script>
+
+    <!-- <link rel="stylesheet" href="https://fontawesome.com/v5.15/icons/bars?style=solid"> -->
+    
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <header>
+    <div class ="nav-container">
+        <h3>Aeron Barajas</h3>
+        <nav>
+            <ul>
+                <li><a href="">About me</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">Github</a></li>
+                
+            </ul>
+            <!-- <i class="fas fa-bars"></i> -->
+        </nav>
+    </div>
+    </header>
+    <main>
+        <h1>Hello, I'm Aeron.</h1>
+        <h2>What would you like to see? </h2>
+        <div class='secondlist'>
+            <button class="accordion">About me</button>
+                <div class="panel">
+                    <p>lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime quas provident quidem voluptates illo veritatis alias, quaerat perspiciatis ab porro dolores asperiores esse ratione! Dolor labore iure dicta expedita tempore.</p>
+                </div>
+            <button class="accordion">Projects</button>
+                <span class="panel portfolio">
+                    <p class='img1'> <img src="https://cdn.pixabay.com/photo/2016/11/30/12/09/question-mark-1872634_960_720.jpg"></p>
+                    <h4>Working on the next one...</h4>
+                    <p class='description1'>Check back soon!</p>
+                </span>
+            <button class="accordion">Contact</button>
+                <div class="panel contact">
+                    <p>Get in touch!</p>
+                    <form action="https://formspree.io/f/xpzkjdwb" method="post">
+                        <label class="name">Name:<br>
+                            <input name="name" type="text" id="name">
+                          </label>
+                          <label class="email">Email:<br>
+                            <input name="email" type="email" id="email">
+                          </label>
+                          <label message="message" class="message">Message:<br>
+                            <textarea name="message" id="message"></textarea>
+                          </label>
+                        <button type="submit">Submit</button>
+                      </form>
+                </div>
+            <button class="accordion">Socials</button>
+                <div class="panel">
+                    <p>I am a Software Developer</p>
+                </div>
+        </div>
+
+
+    </main>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+        
 </body>
 </html>

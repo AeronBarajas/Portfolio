@@ -1,0 +1,69 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.nav-container ul {
+    display: none;
+    text-decoration: none;
+    
+}
+
+
+/* nav i.fas.fa-bars {
+    display: block;
+    padding: 1em;
+    font-size: 2em;
+} */
+
+h3 {
+    color: black;
+}
+
+body {
+    background-color: #b5b1ca;
+    margin: 0;
+    
+}
+
+main {
+    font-size: .75em;
+    background-color: #d3d8b8;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+
+.accordion {
+    background-color: #d3d8b8;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.panel {
+    font-size: 1.25em;
+    padding: 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.name , .email , .message {
+    display: block;
+    margin: 1em;
+}
+
+p > img {
+    width: 50%;  
+}
+
