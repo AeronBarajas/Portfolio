@@ -11,15 +11,35 @@
   crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/app.js" type="text/javascript" defer></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </head>
 
 <body>
     <header>
-    <div class ="nav-container">
+
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #744dbd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#aboutme">About me</a>
+              <a class="nav-link active" href="#projects">Projects</a>
+              <a class="nav-link active" href="#contact">Contact</a>
+              <a class="nav-link active" href="#socials">Socials</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- <div class ="nav-container">
         <h3>Aeron Barajas</h3>
         <nav>
+            <div class='menu'>☰</div>
             <ul>
                 <li class='navlink'><a href="">About me</a></li>
                 <li class='navlink'><a href="">Projects</a></li>
@@ -28,14 +48,84 @@
                 <li class='navlink'><a href="">Github</a></li>
                 
             </ul>
-            <div class='menu'>☰</div>
+            
         </nav>
-    </div>
+    </div> -->
     </header>
     <main>
         <h1>Hello, I'm Aeron.</h1>
         <h2>What would you like to see? </h2>
-        <div class='secondlist'>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item" id="aboutme">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                About me
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <p>I’m a Software Developer with a background in Finance, International Relations, and Mechanical Engineering. I started programming in 2014 with some entry level classes and decided in 2021 that I would pursue this full-time. Coming from so many different backgrounds has shown me that most problems, collaborative or not, can be quickly solved if we break things down into individual steps and tackle them one after another until the goal is complete.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="projects">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Projects
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <p class='img1'> <img src="https://cdn.pixabay.com/photo/2016/11/30/12/09/question-mark-1872634_960_720.jpg"></p>
+                    <h4>Working on the next one...</h4>
+                    <p class='description1'>Check back soon!</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="contact">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Contact
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <p>Get in touch!</p>
+                    <form action="https://formspree.io/f/xpzkjdwb" method="post">
+                        <label class="name">Name:<br>
+                            <input name="name" type="text" id="name">
+                          </label>
+                          <label class="email">Email:<br>
+                            <input name="email" type="email" id="email">
+                          </label>
+                          <label message="message" class="message">Message:<br>
+                            <textarea name="message" id="message"></textarea>
+                          </label>
+                        <button type="submit">Submit</button>
+                      </form>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="socials">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                Socials
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+              <div class="accordion-body">
+                <a href="https://www.linkedin.com/in/aeron-barajas-1053b1210/">
+                  <img class="social-img" src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg">
+                </a>
+                <a href="https://github.com/AeronBarajas">
+                  <img class="social-img" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class='secondlist'>
             <button class="accordion">About me</button>
                 <div class="panel">
                     <p>lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime quas provident quidem voluptates illo veritatis alias, quaerat perspiciatis ab porro dolores asperiores esse ratione! Dolor labore iure dicta expedita tempore.</p>
@@ -66,7 +156,7 @@
                 <div class="panel">
                     <p>I am a Software Developer</p>
                 </div>
-        </div>
+        </div> -->
     </main>        
 </body>
 </html>

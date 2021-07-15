@@ -1,4 +1,4 @@
-.nav-container {
+/* .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,20 +15,23 @@
     list-style: none;
     padding-right: 25px;
     
-}
+} */
 
-.menu {
+/* ul {
+    display: block;
+} */
+/* .menu {
     font-size: 1.45em;
-}
+    cursor: pointer;
+} */
 
-h3 {
+/* h3 {
     color: black;
-}
+} */
 
 body {
     background-color: #b5b1ca;
-    margin: 0;
-    
+    /* margin: 0; */
 }
 
 main {
@@ -40,23 +43,21 @@ main {
 
 
 .accordion {
-    background-color: #d3d8b8;
-    cursor: pointer;
+    /* background-color: #d3d8b8;
+    cursor: pointer; */
     padding: 18px;
-    width: 100%;
-    border: none;
-    outline: none;
-    font-weight: 600;
+    /* width: 100%; */
+    /* border: none; */
+    /* outline: none; */
+    /* font-weight: 600; */
 }
 
 
 
-.panel {
+.accordion-body {
     font-size: 1.25em;
     padding: 18px;
     background-color: white;
-    display: none;
-    overflow: hidden;
 }
 
 .contact {
@@ -72,8 +73,28 @@ p > img {
     width: 50%;  
 }
 
-@media (max-width: 425px) {
+/*  */
 
+.navbar-nav {
+    padding-right: 10px;
+    margin-top: 5px;
+    align-items: flex-end;
+}
+
+.accordion-button {
+    justify-content: center;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.social-img {
+    max-width: 100px;
+}
+
+@media (max-width: 499px) {
+    
 
 }
 
@@ -85,8 +106,12 @@ p > img {
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .accordion:hover {
         font-size: larger;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
     }
 } 
