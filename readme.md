@@ -48,24 +48,22 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 2hr | hr |
-| Expanding buttons | H | 3hr | hr |
-| Portfolio Formatting | H | 3hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1.5hr |  hr |
-| Total | H | 20| hrs |
+| Hamburger | H | 2hr | 1.5hr |
+| Expanding buttons | H | 3hr | 2hr |
+| Portfolio Formatting | H | 3hr | 3hr |  
+| Adding Form | H | 1.5hr|  0.5hr | 
+| Other sections and flex| M | 3hr | 2hr|
+| Responsive | H | 3hr | 3hr |
+| Social Media Icons | L | 1.5hr |  0.5hr |
+| Total | H | 17hrs| 15.5hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Intro animation | L | 3hr | -hr | hr |
-| Buttons enlarge animation | L | 2hr | hr |
-| Interactive Banner? | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Total | H | 17hrs| hrs |
+| Intro animation | L | 3hr | -hr | 0hr |
+| Buttons enlarge animation | L | 2hr | .5hr |
+| Interactive Banner? | M | 4hr | 0hr |
+| Bootstrap | H | 4hr | 3hr |
+| Total | H | 13hrs| 3.5hrs |
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 ## Code Snippet
@@ -80,3 +78,7 @@ function reverse(string) {
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object# Portfolio
+
+
+**PROBLEM**: I tried making the navbar and the accordion with just css/jquery and ended up having to redo everything a couple times
+**RESOLUTION**: I used bootstrap.
