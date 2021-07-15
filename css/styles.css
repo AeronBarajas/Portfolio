@@ -30,17 +30,21 @@
 } */
 
 body {
-    background-color: #b5b1ca;
+    background-color: #C88661!important;
     /* margin: 0; */
 }
 
 main {
     font-size: .75em;
-    background-color: #d3d8b8;
+    /* background-color: #b5b1ca; */
     text-align: center;
     padding: 15px 0 15px 0;
 }
 
+h1 {
+    /* margin: 15%!important; */
+
+}
 
 .accordion {
     /* background-color: #d3d8b8;
@@ -56,8 +60,7 @@ main {
 
 .accordion-body {
     font-size: 1.25em;
-    padding: 18px;
-    background-color: white;
+    background-color: #66C1D0;
 }
 
 .contact {
@@ -81,8 +84,14 @@ p > img {
     align-items: flex-end;
 }
 
+.navbar-light .navbar-brand {
+    color: #ecc755!important;
+}
+
 .accordion-button {
     justify-content: center;
+    color: #ecc755!important;
+    background-color: #518776!important;
 }
 
 .accordion-button::after {
@@ -91,6 +100,10 @@ p > img {
 
 .social-img {
     max-width: 100px;
+}
+
+.git-img {
+    border-radius: 50px;
 }
 
 @media (max-width: 499px) {
@@ -107,11 +120,16 @@ p > img {
 }
 
 @media (min-width: 992px) {
-    .accordion:hover {
-        font-size: larger;
+    .accordion-button:hover {
+        font-size: large;
     }
 
     .navbar-nav {
         margin-left: auto;
     }
+
+    p > img {
+        width: 30%;  
+    }
+
 } 
