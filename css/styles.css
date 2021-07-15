@@ -1,38 +1,6 @@
-/* .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
-}
-
-.nav-container nav {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.navlink {
-    list-style: none;
-    padding-right: 25px;
-    
-} */
-
-/* ul {
-    display: block;
-} */
-/* .menu {
-    font-size: 1.45em;
-    cursor: pointer;
-} */
-
-/* h3 {
-    color: black;
-} */
 
 body {
-    background-color: #322E40!important;
-    /* margin: 0; */
-  
+    background-color: #322E40!important;  
 }
 
 body, html {
@@ -41,7 +9,6 @@ body, html {
 
 main {
     font-size: .75em;
-    /* background-color: #b5b1ca; */
     text-align: center;
     padding: 15px 0 15px 0;
     background-image: url('https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png');
@@ -52,8 +19,6 @@ main {
 
 #home {
     margin-top: 15%;
- 
-
 }
 
 .question {
@@ -61,16 +26,8 @@ main {
 }
 
 .accordion {
-    /* background-color: #d3d8b8;
-    cursor: pointer; */
     padding: 18px;
-    /* width: 100%; */
-    /* border: none; */
-    /* outline: none; */
-    /* font-weight: 600; */
 }
-
-
 
 .accordion-body {
     font-size: 1.25em;
@@ -89,8 +46,6 @@ main {
 p > img {
     width: 50%;  
 }
-
-/*  */
 
 .navbar-nav {
     padding-right: 10px;
@@ -127,17 +82,9 @@ p > img {
 
 @media (max-width: 991px) {
     #home {
-    padding-top: 10%;
-    margin-bottom: 10%;
+        padding-top: 10%;
+        margin-bottom: 10%;
     }
-}
-
-@media (min-width: 500px) {
-    /* .menu {
-        display: none;
-    } */
-
-
 }
 
 @media (min-width: 992px) {
@@ -152,13 +99,12 @@ p > img {
     p > img {
         width: 30%;  
     }
+    
     .question {
         padding: 40px;
     }
 
     #home {
         margin-top: 10%;
-     
-    
     }
 } 
