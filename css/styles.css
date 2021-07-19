@@ -43,8 +43,9 @@ main {
     margin: 1em;
 }
 
-p > img {
+.img1 {
     width: 50%;  
+    padding-bottom: 1em;
 }
 
 .navbar-nav {
@@ -78,6 +79,10 @@ p > img {
 
 .git-img {
     border-radius: 50px;
+}
+
+.projects-body {
+    display: flex;
 }
 
 @media (max-width: 991px) {
