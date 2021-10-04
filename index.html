@@ -17,59 +17,35 @@
 </head>
 
 <body>
-    <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #518776;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#home">Aeron Barajas</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#aboutme">About me</a>
-              <a class="nav-link active" href="#projects">Projects</a>
-              <a class="nav-link active" href="#contact">Contact</a>
-              <a class="nav-link active" href="#socials">Socials</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-        <h1 id="home">Hello, I'm Aeron.</h1>
-        <h2 class="question">What would you like to see? </h2>
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item" id="aboutme">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                About me
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-              <div class="accordion-body">
-                <p>I’m a Software Developer with a background in Finance, International Relations, and Mechanical Engineering. I started programming in 2014 with some entry level classes and decided in 2021 that I would pursue this full-time. Coming from so many different backgrounds has shown me that most problems, collaborative or not, can be quickly solved if we break things down into individual steps and tackle them one after another until the goal is complete.</p>
+  <main>
+    <div class="hero">
+      <div class="herocard"></div>
+      <h1 id="home">Hello, I'm Aeron Barajas.</h1>
+      </div>
+    </div>
+    
+
+        <!-- //////////////////////// -->
+        <div id="myGroup">
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#aboutMe" aria-expanded="false" aria-controls="aboutMe">getToKnowMe<span class="first">( )</class>;</button>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#myWork" aria-expanded="false" aria-controls="myWork">viewMyWork<span class="second">( )</class>;</button>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#contact" aria-expanded="false" aria-controls="contact">contact<span class="third">( )</class>;</button>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#socials" aria-expanded="false" aria-controls="socials">follow<span class="fourth">( )</class>;</button>
+
+          <div class="accordion-group">
+            <div class="collapse multi-collapse" id="aboutMe" data-parent="#myGroup">
+              <div class="card card-body">
+                <p>I’m a Software Developer with a background in Finance, International Relations, and Mechanical Engineering. I started programming in 2014 with some entry level classes and decided in 2021 that I would pursue this full-time. Coming from so many different backgrounds has shown me that all problems can be solved, collaboratively or individually, if we break things down and tackle them one after another until the goal is complete.</p>
               </div>
             </div>
-          </div>
-          <div class="accordion-item" id="projects">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Projects
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-              <div class="accordion-body" id="projects-body">
+            <div class="collapse multi-collapse" id="myWork" data-parent="#myGroup">
+              <div class="card card-body">
+                <div id="projects-body">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item" id="contact">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Contact
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-              <div class="accordion-body">
+            <div class="collapse multi-collapse" id="contact" data-parent="#myGroup">
+              <div class="card card-body">
                 <p>Get in touch!</p>
                   <form action="https://formspree.io/f/xpzkjdwb" method="post">
                     <label class="name">Name:<br>
@@ -85,15 +61,8 @@
                   </form>
               </div>
             </div>
-          </div>
-          <div class="accordion-item" id="socials">
-            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                Socials
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-              <div class="accordion-body">
+            <div class="collapse multi-collapse" id="socials" data-parent="#myGroup">
+              <div class="card card-body">
                 <a href="https://www.linkedin.com/in/aeron-barajas-1053b1210/">
                   <img class="social-img" src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg">
                 </a>
@@ -103,7 +72,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>       
     </main>        
 </body>
 </html>

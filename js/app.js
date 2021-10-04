@@ -5,9 +5,18 @@ $.ajax('./json/projects.json')
     data.forEach((project) => {
         const div = $("<div class ='project'>")
         div.html(`
-        <img src= '${project.image}' class='img1'>
+        <a href='${project.deployed}'>
+        <img src= '${project.image}'>
         <h4>${project.name}</h4>
-        <p>${project.description}</p>`)
+        </a>
+        <p>${project.description}</p>
+        <a href='${project.github}'>
+        <p class='repo-link'>Repo</p>
+        </a>`)
         projects.append(div)
     })
 })
+
+jQuery('button').click( function(e) {
+    jQuery('.collapse').collapse('hide');
+});

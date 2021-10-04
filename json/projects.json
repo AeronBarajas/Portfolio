@@ -1,9 +1,22 @@
 [
     {
-      "name": "Working on the next one...",
-      "description":"Check back soon!",
-      "github": "https://github.com/AeronBarajas/Portfolio",
-      "deployed": "https://portfolio-seven-chi-33.vercel.app/",
-      "image": "https://cdn.pixabay.com/photo/2016/11/30/12/09/question-mark-1872634_960_720.jpg"
+      "name": "ACT Travel Group",
+      "description":"This is a mobile website for ACT Travel Group, a travel agency made up of my friends and I. We wanted to build a website that was more complicated (for us at the time) than what we were used to, while getting experience working in a group setting. That way when the time came we would have experience with merge conflicts and other issues that came from working with a team.",
+      "github": "https://github.com/cjmccaskill/travel-project",
+      "deployed": "https://travel-project-roan.vercel.app/",
+      "image": "https://res.cloudinary.com/dbeoydlvv/image/upload/v1633247663/Screen_Shot_2021-10-03_at_2.53.24_AM_mymvly.png"
+    },
+    {
+      "name": "BrandMerch",
+      "description":"This website is for a brand I made up where pictures of the items do not exist on the website, so products are purchased in good faith hoping that you'll like what you buy. You may ask yourself why a business would do that, and the answer is I made this to practice with Vue/ Django and forgot I needed pictures.",
+      "github": "https://github.com/AeronBarajas/brandmerch-front",
+      "deployed": "https://brandmerch-front.vercel.app/",
+      "image": "https://res.cloudinary.com/dbeoydlvv/image/upload/v1633245081/565a2770-b751-4556-8dcc-5da75ab9f203_b7e7a5.png"
+    },
+    {
+      "name": "iStocks",
+      "description":"A mock stock tracking app built with React.",
+      "github": "https://github.com/AeronBarajas/iStocks",
+      "image": "https://res.cloudinary.com/dbeoydlvv/image/upload/v1633297916/download_kszlb0.png"
     }
   ]
